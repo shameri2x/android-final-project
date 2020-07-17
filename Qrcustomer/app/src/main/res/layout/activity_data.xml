@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".data"
+    android:background="@drawable/baclground">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#22817E7E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="24sp"
+        android:text="TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/custom_input"
+        android:textColor="@color/QRCodeBlackColor"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="24sp"
+        android:text="TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/custom_input"
+        android:textColor="@color/QRCodeBlackColor"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="24sp"
+        android:text="TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/custom_input"
+        android:textColor="@color/QRCodeBlackColor"/>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="155dp"
+        android:text="للخلف"
+        android:textSize="24sp"
+        android:textColor="@color/QRCodeWhiteColor"
+        android:background="@color/QRCodeBlackColor"/>
+
+
+</RelativeLayout>

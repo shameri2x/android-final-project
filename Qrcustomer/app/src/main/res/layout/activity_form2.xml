@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".form2"
+    android:background="@drawable/baclground">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#22817E7E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/custom_input"
+        android:hint="     الاسم :"
+        android:shadowColor="#000000"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/custom_input"
+        android:hint="     المسمى الوظيفي :"
+        android:shadowColor="#000000"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/id"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/custom_input"
+        android:hint="       الرقم السري :"
+        android:inputType="numberPassword"
+        android:shadowColor="#000000" />
+
+    <EditText
+        android:id="@+id/pass2"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/pass"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/custom_input"
+        android:hint="       الرقم السري :"
+        android:inputType="numberPassword"
+        android:shadowColor="#000000" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/group7"
+        android:shadowColor="#000000"
+        android:text="10:30"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="115dp"
+        android:background="@drawable/group7"
+        android:shadowColor="#000000"
+        android:text="13:30"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button7"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/button4"
+        android:background="@drawable/group7"
+        android:shadowColor="#000000"
+        android:text="14:30"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass2"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/button3"
+        android:background="@drawable/group7"
+        android:shadowColor="#000000"
+        android:text="11:30"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass2"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/button7"
+        android:background="@drawable/group7"
+        android:shadowColor="#000000"
+        android:text="12:30"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button8"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/button5"
+        android:background="@drawable/group7"
+        android:shadowColor="#000000"
+        android:text="15:30"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button5"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/group7"
+        android:backgroundTint="#000000"
+        android:shadowColor="#FFFFFF"
+        android:text="التالي"
+        android:textColor="#F3F0FA"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
